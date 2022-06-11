@@ -1,0 +1,110 @@
+body {
+    background-color: darkgray;
+}
+
+#container {
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+
+
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    margin: auto;
+    width: 56%;
+    height: 50%;
+    grid-template-columns: [line1] 150px [line2] 150px [line3] 150px;
+}
+
+#square1 {
+    border: solid;
+    border-top: 0px;
+    border-left: 0px;
+
+
+}
+
+#square2 {
+    border: solid;
+    border-top: 0px;
+
+}
+
+#square3 {
+    border: solid;
+    border-top: 0px;
+    border-right: 0px;
+
+}
+
+#square4 {
+    border: solid;
+    border-left: 0px;
+
+}
+
+#square5 {
+    border: solid;
+
+}
+
+#square6 {
+    border: solid;
+    border-right: 0px;
+
+
+}
+
+#square7 {
+    border: solid;
+    border-left: 0px;
+    border-bottom: 0px;
+
+}
+
+#square8 {
+    border: solid;
+    border-bottom: 0px;
+
+}
+
+#square9 {
+    border: solid;
+    border-right: 0px;
+    border-bottom: 0px;
+
+}
+
+
+.square {
+    display: flex;
+    width: 148px;
+    height: 145px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#buttonContainer {
+    position: relative;
+    text-align: center;
+}
+
+#play {
+
+}
+
+.pushme {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    margin: 20px
+}
