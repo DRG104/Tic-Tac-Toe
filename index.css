@@ -1,5 +1,5 @@
 body {
-    background-color: darkgray;
+    background-color: rgb(41, 41, 41);
 }
 
 #container {
@@ -13,17 +13,29 @@ body {
 h1 {
     position: relative;
     text-align: center;
+    display: center;
+    color: rgb(202, 199, 199);
 }
+
+h2 {
+    position: relative;
+    text-align: center;
+    display: center;
+    color: rgb(202, 199, 199);
+}
+
 
 #board {
     display: grid;
+    position: relative;
+    left: 130px;
     margin: auto;
     width: 56%;
     height: 50%;
     grid-template-columns: [line1] 150px [line2] 150px [line3] 150px;
 }
 
-#square1 {
+.zero {
     border: solid;
     border-top: 0px;
     border-left: 0px;
@@ -31,51 +43,51 @@ h1 {
 
 }
 
-#square2 {
+.one {
     border: solid;
     border-top: 0px;
 
 }
 
-#square3 {
+.two {
     border: solid;
     border-top: 0px;
     border-right: 0px;
 
 }
 
-#square4 {
+.three {
     border: solid;
     border-left: 0px;
 
 }
 
-#square5 {
+.four {
     border: solid;
 
 }
 
-#square6 {
+.five {
     border: solid;
     border-right: 0px;
 
 
 }
 
-#square7 {
+.six {
     border: solid;
     border-left: 0px;
     border-bottom: 0px;
 
 }
 
-#square8 {
+.seven {
     border: solid;
     border-bottom: 0px;
 
 }
 
-#square9 {
+.eight {
     border: solid;
     border-right: 0px;
     border-bottom: 0px;
@@ -89,16 +101,15 @@ h1 {
     height: 145px;
     justify-content: center;
     align-items: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 199, 199);
     
 }
 
-#buttonContainer {
+#anotherContainer {
     position: relative;
     text-align: center;
-}
-
-#play {
-
 }
 
 .pushme {
